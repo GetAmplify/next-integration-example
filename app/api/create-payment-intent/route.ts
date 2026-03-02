@@ -59,7 +59,7 @@ export async function POST(request: NextRequest) {
 
     const paymentIntentData = await paymentIntentResponse.json();
 
-    let url = `${process.env.AMPLIFY_FRONT_URL}/payment/${paymentIntentData.clientSecret}`;
+    let url = paymentIntentData.url;
 
     if (process.env.SUCCESS_URL) {
       url = `${url}?redirect_url=${encodeURIComponent(`${process.env.SUCCESS_URL}`)}`;
