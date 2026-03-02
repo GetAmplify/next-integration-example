@@ -40,7 +40,6 @@ SUCCESS_URL=http://localhost:3000/success
 - `AMPLIFY_API_KEY`: API Key proporcionada por Amplify.
 - `AMPLIFY_CLIENT_ID`: Client ID proporcionado por Amplify.
 - `AMPLIFY_API_URL`: URL base de la API de Amplify.
-- `AMPLIFY_FRONT_URL`: URL base de la aplicación de Amplify.
 - `SUCCESS_URL`: URL de redirección tras el pago exitoso.
 
 ## Estructura del Proyecto
